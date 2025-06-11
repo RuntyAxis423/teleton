@@ -11,7 +11,8 @@ import {
   BarChart3, 
   Settings,
   ChevronLeft,
-  ChevronRight
+  ChevronRight,
+  Zap
 } from 'lucide-react';
 import { motion } from 'framer-motion';
 
@@ -34,6 +35,7 @@ const modules = [
   { id: 'impact-stories', label: 'Impact Stories Generator', icon: Star, roles: ['coordinador'] },
   { id: 'surveys', label: 'Encuestas & Feedback', icon: BarChart3, roles: ['coordinador'] },
   { id: 'quality-monitor', label: 'Quality Monitor Dashboard', icon: BarChart3, roles: ['coordinador'] },
+  { id: 'improvement-plan', label: 'Plan de Mejora Exprés', icon: Zap, roles: ['coordinador'] },
   { id: 'profile', label: 'Perfil & Ajustes', icon: Settings, roles: ['promotor', 'coordinador'] },
 ];
 

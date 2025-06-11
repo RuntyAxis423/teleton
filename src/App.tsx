@@ -8,6 +8,7 @@ import DashboardHome from './components/Dashboard/DashboardHome';
 import BenefactorsList from './components/Dashboard/BenefactorsList';
 import CommitmentsDashboard from './components/Dashboard/CommitmentsDashboard';
 import QualityMonitor from './components/Dashboard/QualityMonitor';
+import ImprovementPlan from './components/Dashboard/ImprovementPlan';
 import { Benefactor } from './types';
 
 function App() {
@@ -36,6 +37,8 @@ function App() {
         return <CommitmentsDashboard />;
       case 'quality-monitor':
         return <QualityMonitor />;
+      case 'improvement-plan':
+        return <ImprovementPlan />;
       default:
         return (
           <div className="flex items-center justify-center h-96">
