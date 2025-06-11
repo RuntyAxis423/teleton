@@ -3,7 +3,6 @@ import { motion } from 'framer-motion';
 import ChatWidget from './ChatWidget';
 import ImpactDashboard from './ImpactDashboard';
 import CommitmentsSection from './CommitmentsSection';
-import ImpactStoryCreator from './ImpactStoryCreator';
 import AdvancedPanel from './AdvancedPanel';
 
 const Hero: React.FC = () => {
@@ -98,13 +97,10 @@ const Hero: React.FC = () => {
             <div className="text-3xl font-poppins font-bold text-teleton-primary">87%</div>
             <div className="text-text-main/60 font-inter">Tasa de éxito</div>
           </div>
-        </div>
+        </motion.div>
 
         {/* Commitments Section */}
         <CommitmentsSection />
-
-        {/* Impact Story Creator Section */}
-        <ImpactStoryCreator />
 
         {/* Advanced Panel Section */}
         <AdvancedPanel />
